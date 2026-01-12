@@ -1,0 +1,31 @@
+{
+  "lang": "en-US",
+  "name": "Pot Sot Media | Brand Surgery Lab",
+  "short_name": "BrandSurgeon",
+  "description": "Digital Growth Surgeon in Varanasi. Strategic growth and digital transformation for traditional businesses by Rama Mundhra.",
+  "id": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#f59e0b",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "https://lh3.googleusercontent.com/d/10IJ8_85ywJVedSTcBPNkWgYTYgcRvHMo",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://lh3.googleusercontent.com/d/10IJ8_85ywJVedSTcBPNkWgYTYgcRvHMo",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": [
+    "business",
+    "productivity"
+  ]
+}

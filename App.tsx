@@ -27,6 +27,7 @@ const App: React.FC = () => {
   };
 
   return (
+        <Suspense fallback={<div style={{color: 'white', textAlign: 'center', padding: '50px'}}>Loading...</div>}>
     <div className="relative min-h-screen selection:bg-amber-500/30 overflow-x-hidden bg-black">
       {/* Dynamic Background Elements */}
       <div className="fixed inset-0 -z-10 pointer-events-none">
@@ -83,6 +84,7 @@ const App: React.FC = () => {
         <CustomCursor />
       </div>
     </div>
+              </Suspense>
   );
 };
 
